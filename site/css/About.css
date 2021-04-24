@@ -8,7 +8,8 @@ body {
 }
 #About {
   color: black;
-  text-align: center;
+  display: block;
+  margin-bottom:25%;
 }
 #AboutHead {
   font-weight: bolder;
@@ -19,6 +20,7 @@ body {
   margin-left: 30px;
   margin-right: 30px;
   font-size: 1.2em;
+
 }
 /** HEADER **/
 #header-nav {

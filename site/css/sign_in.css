@@ -13,6 +13,7 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
+  display:block;
 }
 img {
   size: contain;
@@ -129,14 +130,14 @@ img {
   width: 150px;  
   height: 30px;  
 }   
-#sign_up {
+#sign_upB {
   width: 200px;  
   height: 30px;   
   border-radius: 17px;  
   padding-left: 7px;  
   color: black;    
 } 
-.sign_up input {  
+#sign_up input {  
   text-indent: 5%;          
 }   
 /*Login Forms */
@@ -158,35 +159,45 @@ img {
 }  
 /********** desktop version **********/
 @media (min-width: 421px) {
-  .login{  
+  #enter{
+      display: flex;
+    margin-bottom: 40px;
+  }
+  #login{  
     text-align: right;
     margin-top:5%;
     flex: 50%;
+
+
     margin-right: 5%;        
   }  
-  .login h2 {  
+  #login h2 {  
     color: black;  
     margin-right: 10%; 
   }  
-  .login label{  
+  #login label{  
     color: black;  
     font-size: small;  
     margin-right: 2%;
   }
-  .sign_up {  
+  #sign_up {  
     text-align: left;
     margin-left: 5%;
-    flex:50%;       
+    flex: 50;
+
+
   }
-  .sign_up h2 {  
+    #sign_up h2 {  
     color: black;  
     margin-left: 10%; 
   }  
-  .sign_up label{  
+   #sign_up label{  
     color: black;  
-    font-size: small;  
+    font-size: small;
+    display: inline-block; 
+    margin-bottom: 3%;   
   }  
-  .login a {  
+  #login a {  
     color:black;  
     font-size: small; 
     margin-right: 2%; 
@@ -222,7 +233,7 @@ img {
     width: 150px;  
     height: 30px;  
   }   
-  #sign_up{
+  #sign_upB{
     width: 200px;  
     height: 30px;  
  
@@ -230,7 +241,7 @@ img {
     padding-left: 7px;  
     color: black;    
   } 
-  .sign_up input{  
+  #sign_up input{  
     text-indent: 5%;     
   }   
 /*Login Forms */
@@ -258,31 +269,41 @@ img {
     display: block;
     margin-bottom: 125px;
   }
-  .login{  
+  #login{  
     background-color: gray; 
-    text-align: bottom;
-    margin-top:60%;
+    text-align: center;
+    margin-top:10%;
     flex :100%;   
   }
-  .login h2 {  
+    #login form{  
+    margin-top:0; 
+  }
+  #login h2 {  
     color: black;   
   }  
-  .login label { 
+  #login label { 
     color: black;  
     font-size: small;  
+
   }
-  .sign_up {  
+  #sign_up {  
     text-align: center;
     flex :100%;
-  }  
-  .sign_up h2 {  
+  } 
+  #sign_up form {  
+    text-align: center;
+    flex :100%;
+  } 
+  #sign_up h2 {  
     color: black;  
   }  
-  .sign_up label {  
+  #sign_up label {  
     color: black;  
-    font-size: small;  
+    font-size: small;
+    display: inline-block; 
+    margin-bottom: 3%; 
   }  
-  .login a { 
+  #login a { 
     color:black;  
     font-size: small; 
   } 
@@ -313,17 +334,17 @@ img {
     width: 50px;  
     height: 10px;  
   }   
-  #sign_up {
+  #sign_upB {
     width: 200px;  
     height: 30px;  
     border-radius: 17px;  
     color: black;    
   } 
-  .sign_up input{  
+  #sign_up input{  
     text-indent: 5%;      
   }   
 /*Login Forms */
-  .login input {  
+  #login input {  
     text-indent: 5%;       
   } 
   #Uname {  
