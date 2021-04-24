@@ -35,7 +35,7 @@
     </header>
 
     <div id="main-content" class="container">
-    <section id= "questions">
+    <div id= "questions">
       <div id = "MultipleChoice" > <div class= header><h2>Multiple Choice </h2></div> <button id= "MultipleChoiceB"onclick="addMultipleChoiceQuestion()" > Add</button><br><textarea placeholder="Enter the question..." id="MultipleChoiceQ" name="MultipleChoiceQ" rows="5" cols="15"></textarea> <br><span id ="addButton"><button id="add" value="Add" onclick="addItem()"> Add Choice </button></span><br><textarea placeholder="Enter the question..." id="ChoiceText" name="ChoiceA" rows="3" cols="15"></textarea>
 
 <ol id= answerList style="list-style-type:lower-alpha">
@@ -68,7 +68,8 @@
       <div id = "OpenEnded"><div class= header><h2>Open Ended </h2></div><button id = OpenEndedB onclick="addOpenEndedQuestion()"> Add</button><br><textarea id="OpenEndedQ" name="OpenEndedQ" rows="5" cols="15" placeholder="Enter the question..."></textarea>
     </div>
 
-    </section>  
+    </div>
+    <br>  
     <div id= "ListOfAddedQuestion"><div id= "headerNav"><h1> List Of Added Question <button id= "SubmitB"onclick="submit()"> Submit </button></h1>  
     
 </div> 
