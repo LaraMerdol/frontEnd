@@ -122,7 +122,7 @@ img {
   width: 200px;  
   height: 30px;  
 }
-#Pass{  
+#pass{  
   width: 150px;  
   height: 30px;  
 } 
@@ -225,7 +225,7 @@ img {
     height: 30px;  
 
   }
-  #Pass{  
+  #pass{  
     width: 150px;  
     height: 30px;  
   } 
@@ -326,7 +326,7 @@ img {
     width: 100px;  
     height: 10px;  
   }
-  #Pass {  
+  #pass {  
     width: 100px;  
     height: 10px;  
   } 
@@ -351,7 +351,10 @@ img {
     width: 100px;  
     height: 10px;  
   }  
- 
+   #Pass {  
+    width: 100px;  
+    height: 10px;  
+  }
   #log {  
     width: 200px;  
     height: 30px;  

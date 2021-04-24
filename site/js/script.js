@@ -92,3 +92,16 @@ function submit () {
      console.log(rateQuestionList);
 
 }   
+
+//login function
+function loginToSystem() {
+  var uname = document.getElementById("Uname").value;
+  var pass = document.getElementById("Pass").value;
+  if(uname== "Lara" && pass == "12345"){
+    console.log("111");
+    window.location.href = "startPage.html";
+  }
+
+
+
+}
