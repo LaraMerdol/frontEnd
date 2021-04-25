@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Peer Review System</title>
+    <link rel="stylesheet" href="../css/Dashboard.css">
+  </head>
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="../welcome_page.html" class="pull-left visible-md visible-lg"></a>
+            <div class="navbar-brand"> 
+              <a href="../welcome_page.html"><h1> <img src="../images/logo.png" alt="logo"> Peer Review System </h1></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id = main-content>
+      <div id = "col1">
+        <div id="course-info"><h2>2021-2022 Spring Semester </h2><h2>CS 319 Course</h2><h2>Eray Tüzün</h2></div>
+        <div id="sections">
+          <ol>
+            <li id = "section1"> <button>Section 1</button></li>
+            <li id = "section2"><button>Section 2</button> </li>
+          </ol>
+        </div>
+      </div>
+      <div id = "col2">
+        <div id="chatbox">
+          <ul id = "messages">
+            
+          </ul>
+          <ul id = "other_messages">
+            
+          </ul>
+        </div>
+        <form name="message">
+            <input name="usermsg" type="text" id="usermsg"/>
+            <input name="submitmsg" type="button" id="submitmsg" value="Send" onclick="sendMessage()" />
+        </form>
+      </div>
+      <div id = "col3">
+        <button id= "profile"> Profile</button>
+        <button id= "groupProfile"> Group Profile</button>
+      </div>
+
+    </div>
+
+
+
+  </body>
+  <script src="../js/script.js"></script>
+</html>

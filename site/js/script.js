@@ -94,13 +94,33 @@ function submit () {
 }   
 
 //login function
+
 function loginToSystem() {
   var uname = document.getElementById("Uname").value;
   var pass = document.getElementById("Pass").value;
   if(uname== "Lara" && pass == "12345"){
     console.log("111");
-    window.location.href = "startPage.html";
+    window.location.href = "DashboardStudent.html";
   }
+  if(uname== "Eray" && pass == "12345"){
+    console.log("111");
+    window.location.href = "DashboardInstructor.html";
+  }
+
+}
+
+function sendMessage() {
+  var message1 = document.getElementById("usermsg").value;
+  var li = document.createElement("LI");  
+  li.innerHTML = message1;
+  li.value= message;
+  if(li.innerHTML != ""){
+    document.getElementById("messages").appendChild(li);
+  }
+  
+  console.log(li.innerHTML);
+  document.getElementById("usermsg").value = "";
+
 
 
 
