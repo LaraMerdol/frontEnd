@@ -126,7 +126,6 @@ function sendMessage() {
 
 
 //Pop up ınstructor start groyp formation
-
 // Get the modal
 var modal = document.getElementById("myModal");
 
