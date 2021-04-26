@@ -275,6 +275,17 @@ img {
   color: white;
 
 }
+#groupList {
+  margin-right: 5%;
+  margin-left: 5%;
+  width: 90%;
+
+}
+
+#groupList li{
+  color: black;
+}
+
 
 
   .modal {
