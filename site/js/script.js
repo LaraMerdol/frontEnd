@@ -1,4 +1,4 @@
-     
+
 function clearContents(element) {
   element.value = '';
 }
@@ -153,3 +153,22 @@ window.onclick = function(event) {
 }
 
 //pop-up end
+
+
+
+ let groups1 = ["group1", "group2"];
+ let groups2 = ["group1", "group2"];
+
+ var section1 = { group: groups1 , name: "Section1" };
+ var section2 = { group: groups2 , name: "Section2" };
+ //let sections = new Array();
+//sections.push(section1);
+//sections.push(section2);
+  var li = document.createElement("LI");  
+  li.value = section1.name;
+  var buttonE = document.createElement('button');
+  li.append(buttonE);
+  buttonE.onclick = function() { // remove list item here
+
+  };
+document.getElementById("section-list").appendChild(li);
