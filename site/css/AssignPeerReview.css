@@ -414,17 +414,64 @@ body {
     color: white;
   }
 
+  #MultipleChoice_alt1 {
+    display: block;
+    width:100%;
+    text-align: center;
+    margin: auto;
+    border: 3px;
+    padding-bottom: 5%;
+  }
+  #MultipleChoice_alt2 {
+    display: block;
+    width:100%;
+    text-align: center;
+    margin: auto;
+    border: 3px;
+  }
+  #MultipleChoice_alt3 {
+    display: block;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border: 3px;
+    padding-bottom: 5%;
+  }
+  #MultipleChoice_alt4 {
+    display: block;
+    width:100%;
+    margin: auto;
+    border: 3px;
+  }
+
   /*Rate question css */
   #RateQuestion {
 
     text-align: center;
-     width:30%;
+     width:40%;
+  }
+
+  #RateQuestion_alt1 {
+    display: block;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border: 3px;
+  }
+
+  #RateQuestion_altSubmit {
+    display: block;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border: 3px;
+    padding-bottom: 5%;
   }
 
   #rate-select{
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding-bottom: 5%;
 
 
   }
@@ -435,6 +482,30 @@ body {
     font-size: small;
 
 
+  }
+
+  #OpenEnded {
+
+    text-align: center;
+     width:40%;
+  }
+
+  #OpenEnded_alt1 {
+    display: block;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border: 3px;
+    padding-bottom: 5%;
+  }
+
+  #OpenEnded_altSubmit {
+    display: block;
+    text-align: center;
+    width:100%;
+    margin: auto;
+    border: 3px;
+    padding-bottom: 5%;
   }
 
    #ListOfAddedQuestion  {
@@ -472,11 +543,12 @@ body {
    }
 
   #ListOfAddedQuestion #headerNav button {
-    width: 25%;
+    width: 30%;
     height: 50%;
     font-size: 15px;
     padding: 3px 3px;
     margin-right: 2px;
+    margin-bottom: 2px;
     border-radius: 12px;
     float: right;
     background-color: white;
