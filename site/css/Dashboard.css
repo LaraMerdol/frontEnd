@@ -13,6 +13,7 @@ body {
   border: 0;
   margin: 0;
   padding: 0;
+  display:block;
 }
 img {
   size: contain;
@@ -54,14 +55,30 @@ img {
 }
 #upNav {
   text-align: right;
-  margin-right: 5%;
+  margin-right: 8%;
+  padding-bottom: 1%;
 }
 #upNav a {
   text-shadow: none;
   font-size: small;
   margin-left: 5%;
   font-weight: bold;
+  
 }
+
+/*
+#search-container {
+  display: block;
+  float: right;
+  
+  
+  
+  margin-right: 2%;
+  
+  
+}*/
+
+
 /*desktop*/
 @media (min-width: 421px) {
   #main-content{
