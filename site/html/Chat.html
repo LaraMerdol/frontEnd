@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Peer Review System</title>
-    <link rel="stylesheet" href="../css/Dashboard.css">
+    <link rel="stylesheet" href="../css/Chat.css">
   </head>
   <body>
     <header>
@@ -14,7 +14,7 @@
           <div class="navbar-header">
             <a href="../welcome_page.html" class="pull-left visible-md visible-lg"></a>
             <div class="navbar-brand"> 
-              <a href="../html/DashboardInstructor.html"><h1> <img src="../images/logo.png" alt="logo"> Peer Review System </h1> </a>
+              <a href="../html/DashboardStudent.html"><h1> <img src="../images/logo.png" alt="logo"> Peer Review System </h1></a>
               <div id="upNav">
                   <input type="text" placeholder="Search..">
                   <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -30,27 +30,14 @@
                   </a>
               </div>
             </div>
-
           </div>
         </div>
       </nav>
     </header>
     <div id = main-content>
       <div id = "col1">
-        <div id="course-info"><h2>2021-2022 Spring Semester </h2><h2>CS 319 Course</h2><h2>Eray Tüzün</h2></div>
-        <div id="chats-button">
-          <button id= "chats"onclick="window.location.href='Chat.html'"> Chats </button>
-        </div>
-        <div id="sections">
-          <ol id = "section-list">
-
-          </ol>
-        </div>
-        <div id="groupList">
-          <ul id = "group-list">
-
-          </ul>
-        </div>
+        <div id="course-info"><h2>Messages</h2></div>
+        
       </div>
       <div id = "col2">
         <div id="chatbox">
@@ -67,29 +54,16 @@
         </form>
       </div>
       <div id = "col3">
-        <button id= "profile"onclick="window.location.href='InstructorProfile.html'"> Profile</button>
 
-        <button id= "groupFormB"> Start Group Formation</button>
-        <button id= "PeerReview" onclick="window.location.href='AssignPeerReview.html'"> PeerReview</button>
-        
-      </div>
 
-    </div>
-    <div id="myModal" class="modal">
-
-      <!-- Modal content -->
-      <div class="modal-content" id ="modal-content" >
-        <span class="close">&times;</span><div id= "popup_header"><h1> Start Group Formation</h1></div>
-        
-          <p>Do you want to create random group or leave the formation of groups to students ? <br>
-          <button id ="random"> Random </button>
-          <button id ="LeaveToStudent">Leave To Student</button><p>
         
 
 
       </div>
 
+
     </div>
+
 
 
   </body>
