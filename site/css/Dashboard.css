@@ -108,6 +108,49 @@ img {
     -moz-box-shadow: 0 0 3px 2px black;
     box-shadow: 0 0 3px 2px gray;
   }
+
+
+
+#chats-button {
+  color: black;
+    font-size: small;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 3px 2px gray;
+    -moz-box-shadow: 0 0 3px 2px black;
+    box-shadow: 0 0 3px 2px gray;
+}
+#chats-button button {
+  margin:0;
+  width: 100%;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:none; 
+  transition-duration: 0.4s; 
+
+
+}
+
+
+#chats-button button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+}
+
+
+#chats-button button:focus,
+#chats-button button.focus {
+  color: #fff;
+  background-color: #AFAEB0; /*this is where the colour was green*/
+  border-color: #AFAEB0;
+}
+
+
 #sections{
   -webkit-box-shadow: 0 0 3px 2px gray;
   -moz-box-shadow: 0 0 3px 2px black;
@@ -183,6 +226,7 @@ img {
   }
 
 /*  */
+
   #chatbox {
     margin-bottom: 25px;
     margin-right: 0;
@@ -193,6 +237,8 @@ img {
     font-size: small;
     overflow-y: scroll;
     border-bottom: 2px solid #a7a7a7;
+
+
 
 
     /*  
@@ -300,16 +346,48 @@ img {
   color: white;
 
 }
+
+
+
 #groupList {
-  margin-right: 5%;
-  margin-left: 5%;
-  width: 90%;
-
-}
-
-#groupList li{df
   color: black;
+    font-size: small;
+    margin: 5%;
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+    -webkit-box-shadow: 0 0 3px 2px gray;
+    -moz-box-shadow: 0 0 3px 2px black;
+    box-shadow: 0 0 3px 2px gray;
 }
+#groupList button {
+  margin:0;
+  width: 100%;
+  font-size: 14px;
+  padding: 8px 16px;
+  border-radius: 0;
+  background-color: white;
+  color: black;
+  border:none; 
+  transition-duration: 0.4s; 
+
+
+}
+
+
+#groupList button:hover {
+  background-color: #AFAEB0; 
+  color: white;
+}
+
+
+#groupList button:focus,
+#groupList button.focus {
+  color: #fff;
+  background-color: #AFAEB0; /*this is where the colour was green*/
+  border-color: #AFAEB0;
+}
+
 
 
 
