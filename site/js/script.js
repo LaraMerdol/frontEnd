@@ -191,6 +191,7 @@ if(modal!== null){
       };
       document.getElementById("section-list").appendChild(li);  
   });
+
   function renew () {
   currentSection.group.forEach(function(element){
     var li = document.createElement("LI");  

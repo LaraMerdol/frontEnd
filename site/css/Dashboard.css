@@ -138,6 +138,14 @@ img {
   color: white;
 }
 
+
+#sections button:focus,
+#sections button.focus {
+  color: #fff;
+  background-color: #AFAEB0; /*this is where the colour was green*/
+  border-color: #AFAEB0;
+}
+
  #sections ol{
   padding:0;
 
@@ -282,7 +290,7 @@ img {
 
 }
 
-#groupList li{
+#groupList li{df
   color: black;
 }
 
