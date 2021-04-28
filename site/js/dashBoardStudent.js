@@ -110,3 +110,9 @@ if(modal!== null){
     }
   }  
 }
+
+function gotoGroupProfile(){
+    onclick=localStorage.setItem("viewGroupProfileName","groupA");
+    window.location="GroupProfile.html";
+
+}
