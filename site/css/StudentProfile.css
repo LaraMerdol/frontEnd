@@ -75,6 +75,9 @@ img {
     #information div h1{
       font-size: 18px;
     }
+    #peerreview {
+
+    }
     #col2{
       flex:67%;
       float: left;
@@ -110,4 +113,35 @@ img {
         padding: 10px 30px;
 
     }
+    #row2first {
+      flex:67%;
+      float: left;
+      width: 300px;
+        color: black;
+        font-size: medium;
+        margin: 5%;
+        text-align: left;
+        display: block;
+        padding: 10px 30px;
+        border: 1px solid black;
+        -webkit-box-shadow: 0 0 3px 2px gray;
+        -moz-box-shadow: 0 0 3px 2px black;
+        box-shadow: 0 0 3px 2px gray;
+    }
+    #groupList {
+      flex:67%;
+      float: left;
+      width: 300px;
+        color: black;
+        font-size: medium;
+        margin: 5%;
+        text-align: left;
+        display: block;
+        padding: 10px 30px;
+        border: 1px solid black;
+        -webkit-box-shadow: 0 0 3px 2px gray;
+        -moz-box-shadow: 0 0 3px 2px black;
+        box-shadow: 0 0 3px 2px gray;
+    }
+
 }
