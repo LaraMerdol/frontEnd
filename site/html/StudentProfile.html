@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/StudentProfile.css">
   </head>
 
-  <body>
+  <body onload="myFunction()">
     <header>
       <nav id="header-nav" class="navbar navbar-default">
         <div class="container">
@@ -35,11 +35,13 @@
         <div class="container" id = "information">
           <div id = "col1"> <img src="../images/instructor.jpg"></div>
           <div id= "col2"><h1>Information</h1>
-            <div> Name : Eray </div>
-            <div>Surname : Tüzün </div>
-            <div>E-mail : eraytuzun@cs.bilkent.edu.tr </div>
-            <div>Course : CS 319 </div></div>
-
+            <form>
+             <div id="name"></div><br>
+              <div id ="surname"></div><br>
+              <div id="Email"></div><br> 
+             <!-- continuee....... -->
+            </form>
+          </div>
         </div>
       </div><!-- End of #home-tiles -->
       <div id="row2">
@@ -51,6 +53,6 @@
     </div><!-- End of #main-content -->
   </body>
 
-  <script src="../js/script.js"></script>
+  <script src="../js/profile.js"></script>
 </body>
 </html>

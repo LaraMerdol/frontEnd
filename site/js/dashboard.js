@@ -96,3 +96,12 @@ if(modal!== null){
 
 
 }
+function goDash(){
+
+  if(localStorage.getItem("type")== "student"){
+    window.location.href = "DashboardStudent.html";
+  }
+  else if(localStorage.getItem("type")== "instructor"){
+    window.location.href = "DashboardInstructor.html";
+  }
+} 

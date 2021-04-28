@@ -487,3 +487,15 @@ img {
 
 
 }
+#dash{
+  text-decoration: none;
+  color: #000;
+  background-color: #AFAEB0;
+  margin-right: 1%;
+  font-size: large;
+
+}
+#dash button:hover {
+  color: #ddd;
+  color: white;
+}

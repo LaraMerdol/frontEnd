@@ -1,5 +1,6 @@
 const NAME = Symbol();
 const PASS = Symbol();
+const TYPE = Symbol();
 class User {
 
  set uname(uname){
@@ -10,6 +11,10 @@ class User {
     this[PASS]=pass;
 
   }
+ set type(type){
+    this[TYPE]=type;
+
+  }  
  get uname(){
     return this[NAME];
 
@@ -17,36 +22,39 @@ class User {
  get pass(){
     return this[PASS];
 
-  }  
- static get unameS(){
-    return document.getElementById("Uname").value;
+  } 
+ get type(){
+    return this[TYPE];
 
-  }
-static get passS(){
-    return document.getElementById("Pass").value;
 
-  }  
+}
 }
 
 const user = new User( );
 function loginToSystem() {
+  localStorage.setItem("name", document.getElementById("Uname").value);
+
   user.uname = document.getElementById("Uname").value;
   user.pass =document.getElementById("Pass").value ;
   if(user.uname== "Lara" && user.pass == "12345"){
+    localStorage.setItem("type", "student");
+    user.type = "student";
     window.location.href = "DashboardStudent.html";
   }
   if(user.uname== "Eray" && user.pass == "12345"){
+    localStorage.setItem("type", "instructor");
+    user.type = "instructor";
     window.location.href = "DashboardInstructor.html";
   }
 
 }
-
+localStorage.setItem(user.uname, "Smith");
 function goDash(){
-  console.log("olmadı: "+ user.unameS+ "oldu");
-  if(user.unameS== "Lara" && user.passS == "12345"){
+
+  if(localStorage.getItem("type")== "student"){
     window.location.href = "DashboardStudent.html";
   }
-  if(user.unameS== "Eray" && user.passS == "12345"){
+  else if(localStorage.getItem("type")== "instructor"){
     window.location.href = "DashboardInstructor.html";
   }
 } 

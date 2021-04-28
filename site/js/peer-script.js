@@ -61,6 +61,7 @@ function addMultipleChoiceQuestion (){
 }
 
 function addItem(){
+
   var li = document.createElement("LI");  
   var input = document.getElementById("ChoiceText");
   li.innerHTML = input.value;
@@ -76,6 +77,7 @@ function addItem(){
   };
 document.getElementById("answerList").appendChild(li);
 
+
         
 
 }
@@ -89,5 +91,6 @@ function submit () {
      console.log(MultipleChoiceQuestionList);
      console.log("Rate Question List"+" ");
      console.log(rateQuestionList);
+     console.log(localStorage.getItem("name"))
 
 }   
