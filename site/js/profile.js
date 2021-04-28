@@ -25,15 +25,20 @@ var currentSection =student1 ;
   groupmembers.push(student4);
   */
     //write your code here
+    let reviews = new Array();
+    reviews.push("Peer1 Review");
+    reviews.push("Peer2 Review");
+    reviews.push("Peer3 Review");
+    reviews.push("Peer4 Review");
     var student1PeerReview={ name: "Student 1 Peer Review:"};
     var student2PeerReview={ name: "Student 2 Peer Review"};
     var student3PeerReview={ name: "Student 3 Peer Review"};
     var student4PeerReview={ name: "Student 4 Peer Review"};
 
-   var student1 = { review: student1PeerReview , name: "Student1" };
-   var student2 = { review: student2PeerReview , name: "Student2" };
-   var student3 = { review: student3PeerReview , name: "Student3" };
-   var student4 = { review: student4PeerReview , name: "Student4" };
+   var student1 = { review: reviews , name: "Student1" };
+   var student2 = { review: reviews , name: "Student2" };
+   var student3 = { review: reviews , name: "Student3" };
+   var student4 = { review: reviews , name: "Student4" };
 
    var currentStudent =student1 ;
   let students = new Array();
@@ -64,13 +69,11 @@ var currentSection =student1 ;
 
 
   function renew () {
-  currentStudent.group.forEach(function(element){
+  currentStudent.review.forEach(function(element){
     var li = document.createElement("LI");  
     li.value = element;
-    console.log(currentSection.group[1].name);
-    console.log(li);
     var buttonE = document.createElement('button');
-    buttonE.innerText = element.name;
+    buttonE.innerText = element;
     li.append(buttonE);
      buttonE.onclick = function() { };  
      document.getElementById("reviews").appendChild(li);  
