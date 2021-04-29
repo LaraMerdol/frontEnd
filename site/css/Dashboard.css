@@ -327,20 +327,23 @@ img {
   -moz-box-shadow: 0 0 3px 2px black;
   box-shadow: 0 0 3px 2px gray;
     border: 1px solid black;
+    display: flex;
 
-    
+}
+ #attachfile label {
+  width: 20%;
+
 }
 #attachfile:hover {
   background-color: #AFAEB0; 
   color: white;
 
 }
-#attachfiler {
-  /*
-   opacity: 0;
-   position: absolute;
-   z-index: -1;
-   */
+#files {
+  margin-top: 0;
+  height: 100%;
+  width: 100%;
+
 }
 
 #postbuttons {
