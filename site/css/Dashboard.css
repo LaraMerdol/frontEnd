@@ -290,7 +290,7 @@ img {
   #submitmsg {
     margin-bottom :1%;
     margin-top :2%;
-  width: 80%;
+  width: 60%;
   font-size: 14px;
   border-radius: 10px;
   background-color: white;
@@ -314,25 +314,24 @@ img {
  #attachfile {
     margin-bottom :1%;
     margin-top :6%;
-  width: 80%;
+  width: 60%;
   font-size: 14px;
   border-radius: 10px;
   background-color: white;
   color: black; 
   transition-duration: 0.4s; 
   height: 30px;
-  padding-left: 5px;
-  margin-left: 5%;
+    padding-right: : 5%;
+    margin-left: 22%;
   -webkit-box-shadow: 0 0 3px 2px gray;
   -moz-box-shadow: 0 0 3px 2px black;
   box-shadow: 0 0 3px 2px gray;
     border: 1px solid black;
-    display: flex;
 
 }
  #attachfile label {
-  width: 20%;
-
+  width: 1%;
+  padding-top: 5px;
 }
 #attachfile:hover {
   background-color: #AFAEB0; 
@@ -342,7 +341,7 @@ img {
 #files {
   margin-top: 0;
   height: 100%;
-  width: 100%;
+  width: 1%;
 
 }
 

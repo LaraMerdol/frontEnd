@@ -55,7 +55,10 @@
         <form name="message">
             <input name="usermsg" type="text" id="usermsg" placeholder="Comment something or attach file on dashboard.." />
             <div id= "postbuttons">
-              <input name="attachfile" type="button" id="attachfile" value="Attach File" />
+              <div id="attachfile">
+                <label for="files" class="button" id="attachFile">Attach File</label>
+                <input id="files" style="visibility:hidden;" type="file">
+              </div>
               <input name="submitmsg" type="button" id="submitmsg" value="Post" onclick="sendMessage()" />
             </div>
         </form>
