@@ -53,6 +53,15 @@
         </div>
       </div>
       <div id = "col2">
+        <form name="message">
+            <input name="usermsg" type="text" id="usermsg" placeholder="Comment something or attach file on dashboard.." />
+            <div id= "postbuttons">
+              <input name="attachfile" type="button" id="attachfile" value="Attach File" />
+              <input name="attachfiler" type="file" id="attachfiler" value="Attach File" />
+              <input name="submitmsg" type="button" id="submitmsg" value="Post" onclick="sendMessage()" />
+            </div>
+        </form>
+        <hr style="width:96%;text-align:center;">
         <div id="chatbox">
           <ul id = "messages">
             
@@ -61,11 +70,8 @@
             
           </ul>
         </div>
-        <form name="message">
-            <input name="usermsg" type="text" id="usermsg"/>
-            <input name="submitmsg" type="button" id="submitmsg" value="Post" onclick="sendMessage()" />
-        </form>
       </div>
+
       <div id = "col3">
         <button id= "profile"onclick="window.location.href='InstructorProfile.html'"> Profile</button>
 
