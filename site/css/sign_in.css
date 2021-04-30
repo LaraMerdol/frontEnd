@@ -108,7 +108,8 @@ img {
   
 #Name{  
   width: 200px;  
-  height: 30px; 
+  height: 30px;
+
 }  
 #Surname{  
   width: 200px;  
@@ -195,7 +196,7 @@ img {
     color: black;  
     font-size: small;
     display: inline-block; 
-    margin-bottom: 3%;   
+    margin-bottom: 3%;
   }  
   #login a {  
     color:black;  
@@ -209,29 +210,38 @@ img {
   #Name {  
     width: 200px;  
     height: 30px; 
+    margin-left: 100px;
 
   }  
   #Surname {  
     width: 200px;  
     height: 30px;  
+    margin-left: 80px;
+
 
   } 
   #EMail{  
     width: 200px;  
     height: 30px;  
+    margin-left: 95px;
+
   }
   #ID{  
     width: 200px;  
     height: 30px;  
-
+    margin-left: 125px;
   }
   #pass{  
     width: 150px;  
-    height: 30px;  
+    height: 30px; 
+    margin-left: 72px;
+ 
   } 
   #ConfirmPass{
     width: 150px;  
-    height: 30px;  
+    height: 30px; 
+    margin-left: 18px;
+ 
   }   
   #sign_upB{
     width: 200px;  
