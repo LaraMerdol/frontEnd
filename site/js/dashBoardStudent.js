@@ -68,8 +68,7 @@ var formmationStyle = 0;
 
 
 function createGroup(){
-  console.log(document.getElementById("gname").value);
-  var group = document.getElementById("gname").value;
+  var group = "groupA";
   groups.push(group);
   modal.style.display = "none";
 
