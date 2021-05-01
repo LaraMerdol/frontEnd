@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/InstructorProfile.css">
   </head>
 
-  <body>
+   <body onload="myFunction()">
     <header>
       <nav id="header-nav" class="navbar navbar-default">
         <div class="container">
@@ -35,15 +35,28 @@
         <div class="container" id = "information">
           <div id = "col1"> <img src="../images/instructor.jpg"></div>
           <div id= "col2"><h1>Information</h1>
-            <div> Name : Eray </div>
-            <div>Surname : Tüzün </div>
-            <div>E-mail : eraytuzun@cs.bilkent.edu.tr </div>
-            <div>Course : CS 319 </div></div>
+            <form>
+             <div id="name"></div><br>
+              <div id ="surname"></div><br>
+              <div id="Email"></div><br> 
+              <div id="Course"></div><br>
+              <div id="Semester"></div><br>
+             <!-- continuee....... -->
+            </form>
 
         </div>
       </div><!-- End of #home-tiles -->
+    </div>
       <div id="row2">
         <div class="container" id= "Instructor-sections">
+
+          <div id = "row2-first">
+
+            <div id="groupList"> <h2>Group List of Section 1</h2>
+              <a href="GroupProfile.html">GroupA</a><br>
+              <a href="GroupProfile.html">GroupB</a>
+            </div>
+          </div>
 
         </div>
       </div><!-- End of #home-tiles -->
@@ -51,6 +64,6 @@
     </div><!-- End of #main-content -->
   </body>
 
-  <script src="../js/script.js"></script>
+  <script src="../js/profile_instructor.js"></script>
 </body>
 </html>
