@@ -25,20 +25,24 @@ var currentSection =student1 ;
   groupmembers.push(student4);
   */
     //write your code here
-    let reviews = new Array();
-    reviews.push("Peer1 Review");
-    reviews.push("Peer2 Review");
-    reviews.push("Peer3 Review");
-    reviews.push("Peer4 Review");
-    var student1PeerReview={ name: "Student 1 Peer Review:"};
-    var student2PeerReview={ name: "Student 2 Peer Review"};
-    var student3PeerReview={ name: "Student 3 Peer Review"};
-    var student4PeerReview={ name: "Student 4 Peer Review"};
+    let reviews1 = new Array();
+    reviews1.push("Peer Review of Student 1");
+    let reviews2 = new Array();
+    reviews2.push("Peer Review of Student 2");
+    let reviews3 = new Array();
+    reviews3.push("Peer Review of Student 3");
+    let reviews4 = new Array();
+    reviews4.push("Peer Review of Student 4");
 
-   var student1 = { review: reviews , name: "Student1" };
-   var student2 = { review: reviews , name: "Student2" };
-   var student3 = { review: reviews , name: "Student3" };
-   var student4 = { review: reviews , name: "Student4" };
+    let student1PeerReview={ name: "Student 1 Peer Review:"};
+    let student2PeerReview={ name: "Student 2 Peer Review"};
+    let student3PeerReview={ name: "Student 3 Peer Review"};
+    let student4PeerReview={ name: "Student 4 Peer Review"};
+
+   let student1 = { review: reviews1 , name: "Student1" };
+   let student2 = { review: reviews2 , name: "Student2" };
+   let student3 = { review: reviews3 , name: "Student3" };
+   let student4 = { review: reviews4 , name: "Student4" };
 
    var currentStudent =student1 ;
   let students = new Array();
@@ -72,11 +76,12 @@ var currentSection =student1 ;
   currentStudent.review.forEach(function(element){
     var li = document.createElement("LI");  
     li.value = element;
-    var buttonE = document.createElement('button');
-    buttonE.innerText = element;
-    li.append(buttonE);
-     buttonE.onclick = function() { };  
+    var label = document.createElement('label');
+    label.innerText = element;
+    li.append(label);
+     label.onclick = function() { };  
      document.getElementById("reviews").appendChild(li);  
   });
 
 }
+
