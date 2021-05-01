@@ -210,6 +210,36 @@ img {
   padding:0;
 
   } 
+
+    #infopanel {
+      flex:67%;
+      float: left;
+      width: 80%;
+        color: black;
+        font-size: medium;
+        margin: 4%;
+        text-align: left;
+        display: block;
+        padding: 10px 30px;
+        border: 1px solid black;
+        -webkit-box-shadow: 0 0 3px 2px gray;
+        -moz-box-shadow: 0 0 3px 2px black;
+        box-shadow: 0 0 3px 2px gray;
+    }
+    #infopanel li{
+
+    color: black;
+    
+    display: block;
+
+    
+  }
+   #infopanel ol{
+
+    color: black;
+
+    }
+
   #col2{
     display: block;
     margin-top: 1%;

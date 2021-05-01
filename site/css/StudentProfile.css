@@ -169,4 +169,18 @@ img {
         box-shadow: 0 0 3px 2px gray;
     }
 
+    #reviews li{
+
+    color: black;
+    
+    display: block;
+
+    
+  }
+   #reviews ol{
+
+    color: black;
+
+    }
+
 }
